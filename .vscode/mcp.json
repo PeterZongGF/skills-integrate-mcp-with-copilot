@@ -3,6 +3,10 @@
     "github": {
       "type": "http",
       "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "activity-server": {
+      "command": "python",
+      "args": ["src/mcp_server.py"]
     }
   }
 }
